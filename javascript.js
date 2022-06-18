@@ -15,7 +15,7 @@ function resumen() {
             let resultado = (cant*ticket)*categoria;
             document.getElementById("TaP").innerHTML= "Total a pagar: $ "+resultado;
             console.log("hola")
-            document.getElementById("Pago").style.backgroundColor="#99d4d8";
+            document.getElementById("Pago").style.backgroundColor="rgba(204,229,255,255)";
             document.getElementById("Pago").style.width="50%";
             document.getElementById("Pago").style.display = 'block';
         }
